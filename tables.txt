@@ -1,0 +1,19 @@
+create table star_list (star varchar(30) primary key);
+
+create table all_pooja_records(
+	pooja_id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	pooja_name varchar(50) NOT NULL,
+	rate int,
+	devotee_name varchar(50) NOT NULL,
+	birth_star varchar(30) NOT NULL,
+	pooja_date varchar(50) NOT NULL,
+	created_at varchar(50) NOT NULL
+);
+
+create table temp_records(pooja_id int NOT NULL AUTO_INCREMENT PRIMARY KEY, pooja_name varchar(50) NOT NULL, rate int, devotee_name varchar(50) NOT NULL, birth_star varchar(30) NOT NULL, pooja_date varchar(50) NOT NULL);
+
+create table pooja_list(pooja_name varchar(100) primary key, rate int);
+
+create table all_donations( donation_id int NOT NULL AUTO_INCREMENT PRIMARY KEY, donar_name varchar(50) NOT NULL, amount int NOT NULL, created_at varchar(50));
+
+create table all_users (username varchar(50) PRIMARY KEY, password varchar(50));
