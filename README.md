@@ -1,18 +1,16 @@
-## Getting Started
+# Temple Management System
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Temple Management System is a Java-based application designed to facilitate the management of temple activities such as booking poojas, managing donations, and maintaining records. This system provides functionalities for CRUD operations (Create, Read, Update, Delete) for pooja bookings and donations.
 
-## Folder Structure
+## Features
 
-The workspace contains two folders by default, where:
+- *Pooja Booking*: Allows users to book poojas for specific dates and times.
+- *Donation Management*: Enables tracking of donations made to the temple along with donor information.
+- *User Management*: Admins can manage user accounts and permissions.
+- *CRUD Operations*: Provides functionality for creating, reading, updating, and deleting records for both pooja bookings and donations.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Technologies Used
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Java
+- MySQL (or any other database of choice)
+- JDBC (for database connectivity)
