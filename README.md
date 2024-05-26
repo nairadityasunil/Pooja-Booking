@@ -4,6 +4,7 @@ Temple Management System is a Java-based application designed to facilitate the 
 
 ## Features
 
+- Console based application project.
 - *Pooja Booking*: Allows users to book poojas for specific dates and times.
 - *Donation Management*: Enables tracking of donations made to the temple along with donor information.
 - *User Management*: Admins can manage user accounts and permissions.
